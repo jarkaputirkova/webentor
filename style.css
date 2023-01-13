@@ -1,0 +1,186 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("images/pozadie2.png");
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.hlavicka {
+  padding: 15px 0 0 0;
+  align-items: center;
+  background-color: #f4e8e3;
+}
+
+.logo {
+  margin: auto auto 15px auto;
+  /* margin-bottom: 15px; */
+  display: block;
+}
+
+.menu__link {
+  text-decoration: none;
+  background-color: #f4e8e3;
+  border: 0.5px solid #e8cfe0;
+  color: black;
+  display: block;
+  padding: 5px;
+  margin: 0;
+}
+
+.menu__link:hover {
+  background-color: #fdc500;
+  color: white;
+}
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: 1 1 100%;
+}
+
+.menu__item {
+  text-align: center;
+}
+
+.hero-sekcia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 357px;
+  max-height: 301px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 30px auto;
+}
+
+.hero-nadpis {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  max-width: 300px;
+  width: 100%;
+}
+
+.hero-text {
+  font-size: 16px;
+  margin: 30px 0 0 0;
+}
+
+.hero-maskot {
+  display: flex;
+  justify-content: center;
+}
+
+.maskot__image {
+  max-width: 150px;
+  max-height: 150px;
+  margin-bottom: 10px;
+}
+
+
+.joj__image,
+.zmudri__image {
+  max-width: 100px;
+  max-height: 35px;
+  width: 100%;
+  height: 100%;
+  padding-right: 18px;
+}
+
+/* .dizajn__image,
+.vyvoj__image,
+.podpora__image {
+  max-width: 70px;
+  max-height: 70px;
+  width: 100%;
+  height: 100%;
+  padding-right: 18px;
+} */
+
+.sekcia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f6efd9;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  padding: 13px 20px 13px 20px;
+  max-width: 320px;
+  max-height: 200px;
+  width: 100%;
+  height: 100%;
+}
+.nadpis-citacia {
+  font-size: 17px;
+  margin: 0;
+}
+
+.text-citacia {
+  font-size: 13px;
+}
+
+.meno {
+  margin: 0;
+}
+
+/* .spatna-vazba{
+  margin: auto;
+  display: block;
+} */
+
+.podme {
+  color: white;
+  background-color: #fdc500;
+  border-radius: 4px;
+  border: 1px solid #fdc500;
+  padding: 9px 13px;
+  margin: 0 auto 30px auto;
+  display: block;
+}
+
+/* sluzby */
+
+.nadpis-sluzby {
+  font-size: 15px;
+}
+
+.text-sluzby {
+  font-size: 13px;
+}
+
+.sluzby__image {
+  max-width: 67px;
+  max-height: 53px;
+}
+
+.sluzby {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f2f5;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  width: 318px;
+  height: 160px;
+  /* width: 100%;
+  height: 100%; */
+}
+
+
+/* projekty */
+
+
+
+
+
+
