@@ -13,8 +13,12 @@
   </head>
   <body>
     <header class="hlavicka">
-      <div class="logo-hlavicka">
-        <img class="logo" src="images/logo.png" alt="Ikonka grafický dizajn" />
+      <div class="hlavicka__logo">
+        <img
+          class="hlavicka__logo-image"
+          src="images/logo.png"
+          alt="Logo Webentor"
+        />
       </div>
 
       <nav class="menu">
@@ -35,61 +39,61 @@
       </nav>
     </header>
 
-    <hero class="hero-sekcia">
-      <h1 class="hero-nadpis">Váš sprievodca na ceste k webu</h1>
+    <section class="hero">
+      <div class="hero__obsah">
+        <h1 class="hero__nadpis">Váš sprievodca tvorbou webu</h1>
 
-      <div class="hero-maskot">
-        <p class="hero-text">
+        <p class="hero__text">
           Webentor Vám pomôže na ceste za úspešným webom, nech už sa náchádzate
           v akejkoľvek fáze. Vy nám napíšete s čím máte roblém a my ho
           vyriešime.
         </p>
+      </div>
 
+      <div class="hero__maskot">
         <img
-          class="maskot__image"
-          src="images/webentor-maskot2.png"
+          class="hero__image"
+          src="images/webentor-maskot6.png"
           alt="Maskot Webentor"
         />
       </div>
-    </hero>
+    </section>
 
-    <button class="podme">Poďme do toho!</button>
+    <button class="button">Poďme do toho!</button>
 
-    <div class="spatna-vazba">
-      <div class="sekcia">
-        <!-- <div class="logo-klienta"> -->
-          <img
-            class="joj__image"
-            src="images/logo-joj.png"
-            alt="Logo joj group"
-          />
-        <!-- </div> -->
-        <div class="citacia">
-          <h3 class="nadpis-citacia">JOJ Group</h3>
-          <p class="text-citacia">
+    <div class="referencie">
+      <h2 class="referencie__nadpis">Čo hovoria klienti na našu spoluprácu</h2>
+      <div class="referencie__box">
+        <img
+          class="referencie__box-logo"
+          src="images/logo-joj.png"
+          alt="Logo joj group"
+        />
+
+        <div class="referencie__box-citacia">
+          <h3 class="referencie__box-nadpis">JOJ Group</h3>
+          <p class="referencie__box-text">
             "Nielenže sme spokojní s výsledkom, ale aj s ich ochotným a
             trpezlivým prístupom počas samotného vývoja."
           </p>
-          <p class="meno text-citacia">Meno priezvisko</p>
+          <p class="referencie__box-meno">Meno priezvisko</p>
         </div>
       </div>
 
-      <div class="sekcia">
-        <!-- <div class="logo-klienta"> keˇtu pridám toto divko tak sa mi pokazí to logo -->
-          <img
-            class="joj__image"
-            src="images/logo-zmudri.png"
-            alt="logo zmudrig"
-          />
-        <!-- </div> -->
-        <div class="citacia">
-          <h3 class="nadpis-citacia">ZmudriG</h3>
-          <p class="text-citacia">
+      <div class="referencie__box">
+        <img
+          class="referencie__box-logo"
+          src="images/logo-zmudri.png"
+          alt="logo zmudrig"
+        />
+
+        <div class="referencie__box-citacia">
+          <h3 class="referencie__box-nadpis">ZmudriG</h3>
+          <p class="referencie__box-text">
             "Dokážu s klientami komunikovať zrozumiteľne, sú empatickí voči ich
             potrebám, sú vždy k dispozícii a dodržiavajú stanovené deadliny."
           </p>
-
-          <p class="meno text-citacia">Meno priezvisko</p>
+          <p class="referencie__box-meno">Meno priezvisko</p>
         </div>
       </div>
     </div>
@@ -157,21 +161,56 @@
 
     <!-- <button class="podme">Poďme do toho!</button> -->
 
-    <footer>
-      <p>Ferko Mrkvička</p>
-      <a class="footer__contact-email" href="mailto:hello@helloword.sk"
-        >hello@helloword.sk</a
-      >
-      <a class="header__contact-phone" href="tel:00421 999 111 222"
-        >00421 999 111 222</a
-      >
-      <a href="https://facebook.com/jaroslava.putirkova/" target="_blank"
-        >W on Facebook</a
-      >
-      <a href="https://www.instagram.com/_mele_kalikimaka_/" target="_blank"
-        >W on Instagram</a
-      >
-      <p>© Webikon s.r.o. 2022</p>
+    <footer class="footer">
+      <div class="footer__stlpce">
+        <!-- <div class="footer__stlpec">
+          <img
+            class="footer__logo"
+            src="images/logo-w.png"
+            alt="Logo Webentor"
+          />
+        </div>
+
+        <div class="footer__stlpec">
+            <p class="footer__nadpis">ADRESA</p>
+            <p class="footer__text">Súhvezdná 15 <br> 821 04 Bratislava</p>
+          </div> -->
+
+        <div class="footer__stlpec">
+          <p class="footer__nadpis">KONTAKT</p>
+          <div>
+            <a class="footer__link" href="mailto:hello@helloword.sk"
+              >hello@helloword.sk</a
+            >
+          </div>
+          <div>
+            <a class="footer__link" href="tel:00421 999 111 222"
+              >0999 111 222</a
+            >
+          </div>
+        </div>
+
+        <div class="footer__stlpec">
+          <p class="footer__nadpis">SLEDUJ NÁS</p>
+          <div>
+            <a
+              class="footer__link"
+              href="https://facebook.com/jaroslava.putirkova/"
+              target="_blank"
+              >W on Facebook</a
+            >
+          </div>
+          <div>
+            <a
+              class="footer__link"
+              href="https://www.instagram.com/_mele_kalikimaka_/"
+              target="_blank"
+              >W on Instagram</a
+            >
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">© Webikon s.r.o. 2022</p>
     </footer>
   </body>
 </html>

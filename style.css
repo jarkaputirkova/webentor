@@ -19,7 +19,7 @@ body {
   background-color: #f4e8e3;
 }
 
-.logo {
+.hlavicka__logo-image {
   margin: auto auto 15px auto;
   /* margin-bottom: 15px; */
   display: block;
@@ -51,49 +51,45 @@ body {
   text-align: center;
 }
 
-.hero-sekcia {
+.hero {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 357px;
-  max-height: 301px;
-  width: 100%;
-  height: 100%;
+  align-items: center;
+  max-width: 1140px;
   margin: 0 auto 30px auto;
+  padding: 15px;
 }
 
-.hero-nadpis {
-  font-size: 30px;
+
+.hero__nadpis {
+  font-size: 28px;
   margin-top: 20px;
   margin-bottom: 0;
-  max-width: 300px;
   width: 100%;
 }
 
-.hero-text {
+.hero__text {
   font-size: 16px;
   margin: 30px 0 0 0;
 }
 
-.hero-maskot {
+.hero__maskot {
   display: flex;
   justify-content: center;
 }
 
-.maskot__image {
-  max-width: 150px;
-  max-height: 150px;
-  margin-bottom: 10px;
+.hero__image {
+  max-width: 100px;
+  max-height: 220px;
+  padding-top: 90px;
 }
 
 
-.joj__image,
-.zmudri__image {
+.referencie__box-logo {
   max-width: 100px;
   max-height: 35px;
   width: 100%;
   height: 100%;
-  padding-right: 18px;
+  padding-right: 15px;
 }
 
 /* .dizajn__image,
@@ -106,7 +102,14 @@ body {
   padding-right: 18px;
 } */
 
-.sekcia {
+.referencie{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px;
+}
+
+.referencie__box {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -115,21 +118,19 @@ body {
   border-radius: 10px;
   margin: 0 auto 30px auto;
   padding: 13px 20px 13px 20px;
-  max-width: 320px;
-  max-height: 200px;
-  width: 100%;
-  height: 100%;
 }
-.nadpis-citacia {
+.referencie__box-nadpis {
   font-size: 17px;
   margin: 0;
 }
 
-.text-citacia {
+.referencie__box-text {
   font-size: 13px;
+  font-style: italic;
+  margin-bottom: 7px;
 }
 
-.meno {
+.referencie__box-meno {
   margin: 0;
 }
 
@@ -138,7 +139,7 @@ body {
   display: block;
 } */
 
-.podme {
+.button {
   color: white;
   background-color: #fdc500;
   border-radius: 4px;
@@ -176,9 +177,115 @@ body {
   height: 100%; */
 }
 
+/* paticka */
+.footer__stlpce{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.footer__stlpec{
+    flex-basis: calc((100% - 10px) / 2);
+    align-items: center;
+    margin-left: 5px;
+
+
+}
+
+
+.footer__nadpis{
+    font-size: 12px;
+}
+
+.footer__text{
+    font-size: 15px;
+    margin:0
+}
+
+.footer__link,
+.kontakt__link{
+    text-decoration: none;
+    color:#fdc500
+
+}
+
+/* .footer__logo{
+    padding-left: 40px;
+} */
+
+.footer__copyright{
+    text-align: center;
+    color: #989797;
+}
+
+
 
 /* projekty */
 
+.projekt{
+  background-color: #f6f2f5;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  padding: 13px 20px 13px 20px;
+  max-width: 318px;
+}
+
+.projekt__image{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    margin: 0 0 0 50px;
+}
+
+.projekt__nadpis{
+    font-size: 22px;
+}
+
+.projekt__opis{
+    font-size: 20px;
+    
+}
+
+.projekt__text{
+    font-size: 13px;
+}
+
+.button-projekt{
+    margin: 0 0 30px 0; 
+}
+
+/* kontakt */
+
+.socialne-siete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0 0 10px;
+    width: 200px;
+}
+
+
+
+.kontakt{
+    text-align: center;
+  background-color: #f6f2f5;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  padding: 13px 20px 13px 20px;
+  max-width: 318px;
+  margin-top: 30px;
+}
+
+.kontakt{
+    font-size: 22px;
+}
+
+.kontakt__image{
+    margin-top: 30px;
+}
 
 
 
