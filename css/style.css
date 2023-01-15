@@ -26,14 +26,12 @@ body {
 
 .hlavicka__logo-image {
   margin: 0px auto 15px auto;
-  /* margin-bottom: 15px; */
   display: block;
 }
 
 .menu__link {
   text-decoration: none;
   background-color: #f4e8e3;
-  /* border: 0.5px solid #e8cfe0; */
   color: black;
   display: block;
   padding: 15px;
@@ -69,12 +67,12 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
-    /* padding: 15px 15px 0 15px; */
     padding-top: 0;
   }
 
   .hlavicka__logo-image{
-    padding-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .menu__link {
