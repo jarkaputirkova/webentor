@@ -39,7 +39,6 @@ body {
 }
 
 .menu__link:hover {
-  padding: 10px;
   background-color: #fdc500;
   color: white;
 }
@@ -77,10 +76,6 @@ body {
   }
 
   .menu__link {
-    padding: 25px;
-  }
-
-  .menu__link:hover {
     padding: 25px;
   }
 }
