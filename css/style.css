@@ -270,6 +270,7 @@ body {
   color: white;
   background-color: #fdc500;
   border-radius: 4px;
+  text-decoration: none;
   border: 1px solid #fdc500;
   padding: 9px 13px;
   margin: 30px auto 30px auto;
