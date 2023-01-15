@@ -276,6 +276,10 @@ body {
 
 }
 
+.button:hover{
+  background-color: black;
+}
+
 @media screen and (min-width: 800px) {
   .button {
     font-size: 25px;
