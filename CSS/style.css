@@ -1,0 +1,490 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("images/pozadie2.png");
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.hlavicka__vnutro {
+  padding: 15px 15px 0 15px;
+  align-items: center;
+  max-width: 1140px;
+  font-size: 17px;
+}
+
+.hlavicka {
+  background-color: #f4e8e3;
+}
+
+.hlavicka__logo-image {
+  margin: 0 auto 15px auto;
+  /* margin-bottom: 15px; */
+  display: block;
+}
+
+.menu__link {
+  text-decoration: none;
+  background-color: #f4e8e3;
+  /* border: 0.5px solid #e8cfe0; */
+  color: black;
+  display: block;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu__link:hover {
+  padding: 10px;
+  background-color: #fdc500;
+  color: white;
+}
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: 1 1 100%;
+}
+
+.menu__item {
+  text-align: center;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 800px) {
+  .hlavicka__vnutro {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+  }
+
+  .menu__link {
+    padding: 20px;
+  }
+
+  .menu__link:hover {
+    padding: 20px;
+  }
+}
+
+/* paticka */
+.footer__stlpce {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+
+.footer__stlpec {
+  flex-basis: calc((100% - 10px) / 2);
+  align-items: center;
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer__nadpis {
+  font-size: 12px;
+}
+
+.footer__text {
+  font-size: 15px;
+  margin: 0;
+}
+
+.footer__link,
+.kontakt__link {
+  text-decoration: none;
+  color: #2884FF;
+}
+
+.footer__stlpec--logo {
+  text-align: center;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: #989797;
+}
+
+@media screen and (min-width: 800px) {
+  .footer {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer__stlpce {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+
+/* hero sekcia */
+
+.hero {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+}
+
+.hero__nadpis {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.hero__text {
+  font-size: 16px;
+  margin: 30px 0 0 0;
+}
+
+.hero__maskot {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__image {
+  width: 100px;
+  height: 220px;
+  padding-top: 90px;
+}
+
+@media screen and (min-width: 800px) {
+  .hero {
+    margin-bottom: 20px;
+  }
+  .hero__nadpis {
+    font-size: 62px;
+    width: 500px;
+  }
+
+  .hero__text {
+    font-size: 30px;
+  }
+
+  .hero__image {
+    padding: 0;
+    width: 400px;
+    height: 500px;
+  }
+
+  .hero__nadpis--sirsie{
+    width: 600px;
+  }
+}
+
+/* referencie od klientov */
+
+.referencie__box-logo {
+  max-width: 100px;
+  max-height: 35px;
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+}
+
+/* .dizajn__image,
+.vyvoj__image,
+.podpora__image {
+  max-width: 70px;
+  max-height: 70px;
+  width: 100%;
+  height: 100%;
+  padding-right: 18px;
+} */
+
+.referencie {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18px;
+}
+
+.referencie__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f6efd9;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  padding: 13px 20px 13px 20px;
+  max-width: 450px;
+}
+.referencie__box-nadpis {
+  font-size: 17px;
+  margin: 0;
+}
+
+.referencie__box-text {
+  font-size: 13px;
+  font-style: italic;
+  margin-bottom: 7px;
+}
+.referencie__box-pozicia,
+.referencie__box-meno {
+  margin: 0;
+}
+
+.referencie__box-pozicia {
+  font-size: 14px;
+}
+
+/* .spatna-vazba{
+  margin: auto;
+  display: block;
+} */
+
+/* tlačitko */
+.homepage-button-wrapper {
+  text-align: center;
+}
+
+.referencie__box-logo {
+  width: 100px;
+  height: 17px;
+}
+
+.button {
+  color: white;
+  background-color: #fdc500;
+  border-radius: 4px;
+  border: 1px solid #fdc500;
+  padding: 9px 13px;
+  margin: 30px auto 30px auto;
+
+}
+
+@media screen and (min-width: 800px) {
+  .button {
+    font-size: 25px;
+    padding: 13px 18px;
+    text-decoration: none;
+  }
+
+  .referencie {
+    margin: 50px auto 0 auto;
+    max-width: 1140px;
+  }
+
+  .referencie__nadpis {
+    font-size: 40px;
+  }
+
+  .referencie__boxy {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* sluzby */
+
+.sluzba__nadpis {
+  font-size: 15px;
+}
+
+.sluzba__text {
+  font-size: 13px;
+}
+
+.sluzba__image {
+  max-width: 67px;
+  max-height: 53px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.sluzba {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f2f5;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  width: 318px;
+  height: 160px;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.sluzba__telo {
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 800px) {
+  .sluzby {
+    max-width: 1140px;
+    display: flex;
+    flex-basis: calc((100% - 200px) / 3);
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+
+  .sluzba {
+    width: 300px;
+    height: 350px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    border-radius: 0;
+  }
+
+  .sluzba__image {
+    max-width: 100px;
+    max-height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+
+  .sluzba__nadpis {
+    font-size: 20px;
+    width: 200px;
+  }
+
+  .sluzba__text {
+    font-size: 17px;
+  }
+
+  .sluzba__telo {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+/* projekty */
+
+.projekt {
+  background-color: #f6f2f5;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  padding: 13px 20px 13px 20px;
+  max-width: 318px;
+}
+
+.projekt__image {
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  margin: 0 0 0 50px;
+}
+
+.projekt__nadpis {
+  font-size: 22px;
+}
+
+.projekt__opis {
+  font-size: 20px;
+  
+}
+
+.projekt__text {
+  font-size: 13px;
+}
+
+.project__button-wrapper {
+  margin: 30px 0 30px 0;
+}
+
+.projekt__obsah{
+  width:250px;
+}
+
+@media screen and (min-width: 800px) {
+  .projekt {
+    max-width: 1040px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px 50px;
+  }
+
+  .projekt__obsah {
+    width: 400px;
+  }
+
+  .projekt__image {
+    width: 400px;
+    height: 265px;
+    margin-right: 50px;
+    margin-left: 0;
+  }
+
+  .projekty__image-wrapper{
+    margin: 0;
+  }
+  .button--small{
+    font-size: 18px;
+  }
+
+  .projekt__nadpis {
+    font-size: 35px;
+  }
+
+  .projekt__opis {
+    font-size: 25px;
+  }
+
+  .projekt__text {
+    font-size: 18px;
+  }
+
+  .projekt__text{
+    padding-bottom: 30px;
+  }
+}
+
+/* kontakt */
+
+.socialne-siete {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+.kontakt {
+  text-align: center;
+  background-color: #f6f2f5;
+  box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 0 auto 30px auto;
+  padding: 13px 20px 13px 20px;
+  max-width: 318px;
+}
+
+.kontakt {
+  font-size: 22px;
+}
+
+.kontakt__image {
+  margin-top: 30px;
+}
+
+
