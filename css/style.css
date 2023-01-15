@@ -71,8 +71,8 @@ body {
   }
 
   .hlavicka__logo-image{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    margin:0;
   }
 
   .menu__link {
