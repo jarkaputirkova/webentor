@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 .hlavicka__vnutro {
-  padding: 0px 15px 0 15px;
+  padding: 15px 15px 0 15px;
   align-items: center;
   max-width: 1140px;
   font-size: 17px;
@@ -25,7 +25,7 @@ body {
 }
 
 .hlavicka__logo-image {
-  margin: 15px auto 15px auto;
+  margin: 0px auto 15px auto;
   /* margin-bottom: 15px; */
   display: block;
 }
@@ -69,6 +69,11 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
+    padding-top: 0;
+  }
+
+  .hlavicka__logo-image{
+    padding-top: 15px;
   }
 
   .menu__link {
