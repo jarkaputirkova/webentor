@@ -78,6 +78,7 @@ body {
 
   .menu__link {
     padding: 20px;
+    margin: 3px
   }
 
   .menu__link:hover {
