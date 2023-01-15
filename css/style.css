@@ -484,12 +484,9 @@ body {
   background-color: #f6f2f5;
   box-shadow: -10px 10px 13px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 70px auto;
   padding: 13px 20px 13px 20px;
   max-width: 318px;
-}
-
-.kontakt {
   font-size: 22px;
 }
 
