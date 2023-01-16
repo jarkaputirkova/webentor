@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   font-family: "Roboto", sans-serif;
   margin: 0;
+  background-attachment: fixed;
   background-color: #FDF9EF;
 }
 .hlavicka__vnutro {
